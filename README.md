@@ -1,7 +1,9 @@
 # ShopSphere 🛍️
 
 ShopSphere is a React-based online shopping application where users can browse products, search and filter products, view product details, and manage a shopping cart.
+
 Here is a live deployed URL for the project https://shopsphere-five-tan.vercel.app/
+And Loom demonstration link is here https://www.loom.com/share/9c8f7cf2b0324fd697d95a0789f0b38a
 
 ## 📌 Project Overview
 
