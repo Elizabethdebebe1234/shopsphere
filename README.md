@@ -1,16 +1,116 @@
-# React + Vite
+# ShopSphere 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopSphere is a React-based online shopping application where users can browse products, search and filter products, view product details, and manage a shopping cart.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ShopSphere is a single-page React application created to demonstrate the main concepts learned in the React module.
 
-## React Compiler
+The project focuses on reusable components, props, state management, data fetching, React Router, dynamic routes, and Context API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 🏠 Home Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Website introduction
+- Featured products
+- Product categories
+- Promotional section
+- Navigation menu
+
+### 🛍️ Products Page
+
+- Display products using reusable product cards
+- Product images
+- Product names
+- Prices in Ethiopian Birr (ETB)
+- Product categories
+- Product ratings
+- View Details button
+- Add to Cart button
+- Product search
+- Category filtering
+- Product sorting
+
+### 📦 Product Details Page
+
+- Dynamic product pages
+- Product image
+- Product title
+- Product description
+- Product price
+- Product category
+- Product rating
+- Add to Cart button
+- Dynamic routing using `/products/:id`
+
+### 🛒 Shopping Cart
+
+- Product name
+- Product image
+- Product price
+- Product quantity
+- Increase quantity
+- Decrease quantity
+- Remove product
+- Clear cart
+- Total price
+- Checkout message
+
+### 🗂️ Categories Page
+
+- Display available product categories
+- Navigate to products by category
+
+### ℹ️ About Page
+
+- Information about the ShopSphere application
+
+### ❌ 404 / Not Found Page
+
+- Custom Not Found page
+- Go Home button
+- Browse Products button
+
+## ⚛️ React Concepts Demonstrated
+
+This project demonstrates:
+
+- JSX
+- Functional components
+- Component hierarchy
+- Component composition
+- Props
+- Reusable components
+- Children props
+- `useState`
+- Multiple state variables
+- Updating arrays and objects in state
+- Event handling
+- `onClick`
+- `onChange`
+- Conditional rendering
+- Rendering lists with `map()`
+- Proper `key` usage
+- Controlled inputs
+- Search and filtering
+- `useEffect`
+- Fetching local JSON data
+- Loading state
+- Error state
+
+## 🧭 React Router
+
+The application uses React Router for navigation and dynamic routes.
+
+### Routes
+
+```text
+/
+├── /products
+├── /products/:id
+├── /categories
+├── /cart
+├── /about
+└── *
+```
